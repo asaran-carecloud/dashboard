@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+.root {
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  width: 100vw;
+  background-color: $background;
+}
+
+.content {
+  height: 100vw;
+}

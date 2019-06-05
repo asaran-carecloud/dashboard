@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+
+.sideBar {
+  background-color: $primaryShade;
+  display: grid;
+  grid-template-rows: 64px auto 1fr;
+  animation: slideIn 0.6s ease-out;
+}
+
+.title {
+  background-color: $primary;
+  color: #ffffff;
+  font-family: $titleFont;
+  font-size: 32px;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-256px);
+    opacity: 0;
+  }
+  70% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
