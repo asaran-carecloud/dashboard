@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+.filters {
+  display: grid;
+  column-gap: 32px;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  padding-top: 16px;
+}
+
+.dropdownColumn {
+  font: $font;
+  color: $offWhite;
+}

@@ -12,6 +12,11 @@
   color: #ffffff;
   font-family: $titleFont;
   font-size: 32px;
+  padding-left: 24px;
+  padding-top: 8px;
+  & > p {
+    margin: 0 auto;
+  }
 }
 
 @keyframes slideIn {

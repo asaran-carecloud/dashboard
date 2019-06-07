@@ -8,5 +8,9 @@
 }
 
 .content {
+  min-width: calc(100vw - 320px);
+  max-width: calc(92vw - 256px);
+  overflow: auto;
+  justify-self: center;
   height: 100vw;
 }

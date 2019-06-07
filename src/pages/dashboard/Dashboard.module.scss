@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.title {
+  font-family: $font;
+  height: 36px;
+  padding-top: 24px;
+  font-size: 24px;
+  color: $offWhite;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  background-color: $divider;
+  opacity: 0.6;
+}
