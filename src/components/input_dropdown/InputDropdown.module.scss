@@ -10,7 +10,7 @@
     border: 0;
     outline: none !important;
     box-shadow: none;
-    border-radius: none;
+    border-radius: 0;
 
     & div[class*='IndicatorsContainer'] {
       & > span {
@@ -26,5 +26,6 @@
   & div[class*='menu'] {
     background-color: $primary;
     transition: 0.6s;
+    border-radius: 0;
   }
 }

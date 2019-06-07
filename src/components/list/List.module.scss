@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.list {
+  width: 100%;
+  margin-top: 24px;
+
+  .listHeader {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
+    height: 48px;
+    color: $offWhite;
+    background-color: $primary;
+    align-content: center;
+    padding-left: 16px;
+  }
+}

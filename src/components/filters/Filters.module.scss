@@ -11,3 +11,12 @@
   font: $font;
   color: $offWhite;
 }
+
+.button {
+  background-color: $primary;
+  height: 38px;
+  align-content: center;
+  margin-top: 6px;
+  text-transform: uppercase;
+  text-align: center;
+}

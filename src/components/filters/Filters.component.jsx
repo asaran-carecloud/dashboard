@@ -20,6 +20,18 @@ const Filters = memo(() => {
         <div>Sort by</div>
         <InputDropdown options={[{ label: 'HDD Size', value: 'HDD' }, { label: 'System Name', value: 'NAME' }]} />
       </div>
+      <div className={styles.dropdownColumn}>
+        <div style={{ height: 18 }} />
+        <div role="button" className={styles.button}>
+          Reset
+        </div>
+      </div>
+      <div className={styles.dropdownColumn}>
+        <div style={{ height: 18 }} />
+        <div role="button" className={styles.button}>
+          +
+        </div>
+      </div>
     </div>
   );
 });

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 import styles from './App.module.scss';
 import { SideBar } from './components';
 import { Dashboard } from './pages';
