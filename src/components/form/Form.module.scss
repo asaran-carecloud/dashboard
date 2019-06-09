@@ -1,0 +1,60 @@
+@import '../../variables.scss';
+
+.form {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  background-color: $background;
+  color: $offWhite;
+  font-family: $font;
+}
+
+.formHeader {
+  background-color: $primary;
+  text-align: center;
+  padding: 20px;
+  font-family: $titleFont;
+  font-size: 24px;
+  letter-spacing: 1mm;
+}
+
+.formBody {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 24px;
+
+  & div[class*='inputDropdownWrapper'] {
+    margin-top: 0;
+  }
+
+  & div[class*='buttonContainer'] {
+    margin-top: 10px;
+  }
+}
+
+.label {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+
+  & > input {
+    height: 38px;
+    color: $offWhite;
+    font-family: $font;
+    font-size: 18px;
+    padding-left: 12px;
+    background-color: $primaryShade;
+    border: none;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+
+  & div[class*='Button'] {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}

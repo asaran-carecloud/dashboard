@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Select from 'react-select';
 import styles from './InputDropdown.module.scss';
 
-const InputDropdown = ({ options, onChange }) => {
-  const [value, setValue] = useState();
+const InputDropdown = ({ options, onChange, value }) => {
   const customStyles = () => ({
     dropdownIndicator: (base, state) => ({
       ...base,
@@ -19,9 +18,8 @@ const InputDropdown = ({ options, onChange }) => {
         className={styles.dropdown}
         placeholder=""
         value={value}
-        onChange={value => {
-          setValue(value);
-          onChange(value);
+        onChange={({ value }) => {
+          onChange && onChange({ target: { value } });
         }}
       />
     </div>

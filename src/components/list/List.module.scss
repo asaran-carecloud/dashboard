@@ -3,6 +3,7 @@
 .list {
   width: 100%;
   margin-top: 24px;
+  font-family: $font;
 
   .listHeader {
     display: grid;
@@ -12,5 +13,6 @@
     background-color: $primary;
     align-content: center;
     padding-left: 16px;
+    font-family: $titleFont;
   }
 }

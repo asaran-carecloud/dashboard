@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.button {
+  background-color: $primary;
+  margin-top: 6px;
+  max-height: 38px;
+  align-content: center;
+  text-align: center;
+  padding: 10px;
+  font-family: $font;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #3f4358;
+  }
+}

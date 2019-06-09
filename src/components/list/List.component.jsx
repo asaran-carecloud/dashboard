@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styles from './List.module.scss';
 import Row from './row/Row.component';
 
-const List = ({ data = [], deleteDevice }) => (
+const List = ({ data = [], deleteDevice, updateDevice }) => (
   <div className={styles.list}>
     <div className={styles.listHeader}>
       <div>System Name</div>
@@ -17,8 +17,9 @@ const List = ({ data = [], deleteDevice }) => (
         type={type}
         hddCapacity={hdd_capacity}
         id={id}
-        key={index}
+        index={index}
         deleteDevice={deleteDevice}
+        updateDevice={updateDevice}
       />
     ))}
   </div>
