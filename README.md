@@ -1,3 +1,6 @@
+To run this project, first run `npm i` or `yarn`, then run `npm start` or `yarn start`. You must have the API running from here: https://github.com/NinjaMSP/devicesTask_serverApp
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
